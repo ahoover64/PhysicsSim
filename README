@@ -1,24 +1,17 @@
-Assignment2: Particle System in Box
-Programmer: Kacey Coley
-Date: September 23, 2012
+Assignment: Physically Based Simulator
 
-Usage:
-./assign2 [parameterFile] [emitterParameterFile]
+This is a physically based simulator that uses some Camera code from Clemson's computer science department.
+When compiled and run, a cross-struted mesh will appear paused. Press p to begin the simulation of the soft body.
 
+There is also code for planes, emitters, and pointlike particles.
 
-Simulation Bounces particles in the box from an emitter.  The arrow keys and z key changes the gravity force (click and hold).  If loading a parameter file, the gravity, time step, fps, and mass can be changed dynamically.  There is also a parameter file to control the properties of the emitter dynamically.
+To be implemented:
+Rigid Bodies
 
 Keyboard Commands:
-u = Update Simulation based on parameter file[s]
-h = Change material of the particle
 m = Change material colors
-Arrow Keys = Change the gravity affecting  the particles in the x(<-- -->)
-and y(up or down) directions
-z/Z = Change initial velocity in z direction of the particle
 l = Toggle to cull face solid color mode/lighting mode
 b = Toggle to blend mode
 g = Show Grid
-n = Draw Normal Vectors
-p = Toggle Print parameters
-i = Print these instructions
+p = pause/unpause
 q = Quit Simulation
